@@ -227,7 +227,7 @@ def plotCar():
         if(n < poisson_1sec * 100):
             # set initial base station
             base_id = setInitBase(key)
-            new_car = car.Car( key, p_init, base_id, value)
+            new_car = car.Car( key, None, p_init, base_id, value)
             mobility_list.append(new_car)
 
 def deleteCar():

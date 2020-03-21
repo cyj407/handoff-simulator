@@ -102,9 +102,9 @@ class Car():
     def setPos(self, pos):
         self.pos = pos
 
-    def __init__(self, entranceName, power, baseID, pos=None):
+    def __init__(self, entranceName, obj, power, baseID, pos=None):
         super().__init__()
-        # self.obj = obj
+        self.obj = obj
         self.pos = pos
         self.newCar = True
         self.entrance = entranceName
@@ -124,8 +124,8 @@ class Car():
         if(self.pos != None):
             return self.pos
 
-    # def getObj(self):
-    #     return self.obj
+    def getObj(self):
+        return self.obj
 
     def getPrevIntersect(self):
         return self.prevIntersect
