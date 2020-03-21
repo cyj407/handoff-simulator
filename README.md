@@ -20,9 +20,9 @@
 ![](https://i.imgur.com/ljjlvxL.png)
 - Each point represents a car. Use Poisson Distribution to assume that there are 2 cars/min entering to this zone. The simulation time is for one day(=86400 seconds).
 - When a car meet the intersection, there are different possibilities to different directions.
-    - Straight: $\frac{1}{2}$
-    - Right: $\frac{1}{3}$
-    - Left: $\frac{1}{6}$
+    - Straight: ![equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7B2%7D)
+    - Right: ![equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7B3%7D)
+    - Left: ![equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7B6%7D)
 ## Result
 - To watch the simulation for 86400 seconds, run:
 ```shell
@@ -34,6 +34,6 @@ python main.py
 ```
 > It may cost 10~20 minutes to plot the figure and print the result.
 - Policy comparison figure
-![](https://i.imgur.com/l4WMYtV.png)
+    - ![](https://i.imgur.com/l4WMYtV.png)
 - Result in the console
-![](https://i.imgur.com/N7UCexM.png)
+    - ![](https://i.imgur.com/N7UCexM.png)
